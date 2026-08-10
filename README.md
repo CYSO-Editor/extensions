@@ -1,19 +1,20 @@
-# TurboWarp Extension Gallery
+# CYSO Editor Extensions
 
-User-contributed unsandboxed extension gallery for TurboWarp.
+CYSO Editor 的扩展集合，为用户贡献的非沙盒扩展提供展示与分发。基于 [TurboWarp/extensions](https://github.com/TurboWarp/extensions)（TurboWarp 扩展画廊）维护。
 
-https://extensions.turbowarp.org/
+## 内容
 
-## Contributing
+- **extensions/**：扩展代码，每个文件顶部的注释声明其许可证。
+- **samples/**：示例项目，采用 [CC-BY 4.0](licenses/CC-BY-4.0.txt)。
+- 其余内容（扩展图片、开发服务器、网站）采用 [GNU GPL-3.0](licenses/GPL-3.0.txt)。
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+详见 [images/README.md](images/README.md) 查看图片署名信息。
 
-## License
+## 贡献
 
-Extensions (in the `extensions` folder) will have a comment at the top of the file describing the license for the code. In the past [MIT](./licenses/MIT.txt) was the default, however now [MPL-2.0](./licenses/MPL-2.0.txt) is recommended. Some extensions may contain a mix of several.
+参见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-Sample projects (in the `samples` folder) are licensed under [CC-BY 4.0](./licenses/CC-BY-4.0.txt).
+## 相关仓库
 
-Everything else, such as the extension images, development server, and website are licensed under the [GNU General Public License version 3](licenses/GPL-3.0.txt).
-
-See [images/README.md](images/README.md) for attribution information for each image.
+- [CYSO-Editor/desktop](https://github.com/CYSO-Editor/desktop)：桌面客户端（在运行时加载扩展）
+- [CYSO-Editor/vm](https://github.com/CYSO-Editor/vm)：虚拟机器（执行扩展）
